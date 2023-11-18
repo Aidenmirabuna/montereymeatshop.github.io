@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .logo{
+    width: 120px;
+    height: 82px;
+    padding-left: 244px;
+    padding-top: 40px;
+  }
+  .navbar{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    padding-top: 6px;
+    overflow: hidden;
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    text-align: center;
+    background-color: #e72020;
+  }
+  .bodyimg1{
+    align-items: center;
+  }
+  .breadcrumb {
+    font-size: 15px;
+    font-family: Montserrat,sans-serif;
+    list-style-type: none;
+    margin-top: -30px;
+    padding-left: 258px;
+    height: 52px;
+  }
+  .breading{
+    text-decoration: none;
+    color: black;
+  }
+  #vertical{
+    margin-inline-start: 0;
+    margin-inline-end: 12.5%;
+    height: 0.10px;
+    background-color: gray;
+  }
+  .left{
+    margin-left: 258px;
+  }
+  #horizontal{
+    margin-inline-start: 358px;
+    width: 1px;
+    height: 500px;
+    background-color: gray;
+    margin-top: -120px;
+  }
+  .head2{
+    text-transform: uppercase;
+    font-family: Fjalla One,sans-serif;
+    margin-left: 25px;
+  }
+  .border{
+    margin-inline-start: 258px;
+    margin-inline-end: 12.5%;
+    height: 0.10px;
+    background-color: gray;
+  }
+  .left{
+    text-transform: uppercase;
+    float: inline-start;
+  }
+  .leftnav a{
+    color: #e72020;
+    line-height: 1.6;
+    padding-left: 260px;
+  }
+  .divider1{
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 1px;
+    height: 670px;
+    background-color: #bbb;
+    display: inline-block;
+  }
+  .bodyimg{
+    display: block;
+    margin-left: 30px;
+  }
+  .searchbar{
+    margin: 100px;
+  }
+  li{
+    display: inline;
+    float: right;
+    margin-right: 150px;
+  }
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  button{
+    background-color: #e72020;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .bodyimg1{
+    align-items: center;
+    width: 1002px;
+    height: 500px;
+    padding-top: 32px;
+    padding-left: 258px;
+  }
+  hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 258px;
+    margin-inline-end: 17%;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    padding-left: 258px;
+  }
+  .h1{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 258px;
+  }
+  .par{
+    padding-left: 258px;
+    padding-right: 244px;
+    font-size: 16px
+  }
+  .p--section-header--left{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    padding-left: 258px;
+  }
+  .p--section-header--right{
+    text-decoration: none;
+    color: #e72020;
+    font-size: 15px;
+    padding-left: 806px;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    border: 10px solid white;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin-left: 260px;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    border: 10px solid white;
+    text-align: center;
+    font-family: arial;
+    float: right;
+    margin-right: 258px;
+  }
+  h4{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    margin-left: 25px;
+  }
+  .body-contain{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+  }
+  .a111{
+    text-align: center;
+    align-items: center;
+    float: left;
+  }
+  .b111{
+    text-align: center;
+    align-items: center;
+    float: left;
+  }
+  .body-contain:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+  }
+  .body-contain img{
+    width: 175.8px;
+    height: 117.2px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  h5{
+    font-size: 20px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+  }

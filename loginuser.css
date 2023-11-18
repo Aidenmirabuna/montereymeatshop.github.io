@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+.logo{
+    width: 120;
+    height: 82px;
+    padding-left: 244px;
+    padding-top: 40px;
+  }
+
+#form{
+    background-color: #e72020;
+    width:25%;
+    border-radius: 4px;
+    margin:120px auto;
+    padding:50px;
+    box-shadow: 10px 10px 5px #E72084;
+}
+
+#btn{
+    color:rgb(255, 255, 255);
+    background-color: #E78420;
+    padding:10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.signup{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 570px) {
+    #form {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  }
